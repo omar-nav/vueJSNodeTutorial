@@ -4,7 +4,7 @@ var express = require('express'),
   cors = require('cors'),
   mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/vuenodedb")
+mongoose.connect("mongodb://vue:amlo123@ds259154.mlab.com:59154/vue-node")
   .then(() => { console.log('Database connection is successful') },
     err => { console.log('Error when connecting to the database' + err) });
 
